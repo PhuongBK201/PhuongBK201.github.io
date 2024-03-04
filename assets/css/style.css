@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #FF6F61;
     color: #fff;
     text-align: center;
     padding: 40px 0;
@@ -34,7 +34,7 @@ header h1 {
 }
 
 h2 {
-    color: #4CAF50;
+    color: #6A0572;
 }
 
 ul {
@@ -45,10 +45,12 @@ ul {
 ul li {
     display: inline-block;
     margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .project {
-    background-color: #fafafa;
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -56,7 +58,7 @@ ul li {
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #FF6F61;
     color: #fff;
     text-align: center;
     padding: 20px 0;
