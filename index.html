@@ -16,7 +16,18 @@
         </div>
     </header>
 
-    <section class="about">
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
             <p>Welcome to my personal website. I am a passionate web developer and designer with a focus on creating
@@ -24,19 +35,26 @@
         </div>
     </section>
 
-    <section class="skills">
+    <section id="skills" class="skills">
         <div class="container">
             <h2>Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <!-- Add more skills as needed -->
-            </ul>
+            <div class="skill">
+                <h3>HTML5</h3>
+                <div class="progress-bar" style="width: 90%;"></div>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar" style="width: 75%;"></div>
+            </div>
+            <!-- Add more skills as needed -->
         </div>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <h2>Portfolio</h2>
             <!-- Add your projects here -->
@@ -49,6 +67,24 @@
                 <h3>Project Title 2</h3>
                 <p>Description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
         </div>
     </section>
 
